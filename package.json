@@ -1,0 +1,28 @@
+{
+  "name": "real-estate-serenity",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd web-ui && npm run dev",
+    "dev:api": "python run_api.py",
+    "dev:all": "concurrently \"npm run dev\" \"npm run dev:api\"",
+    "install:all": "npm install && cd web-ui && npm install",
+    "build": "cd web-ui && npm run build",
+    "start": "cd web-ui && npm run start",
+    "lint": "cd web-ui && npm run lint"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "@vitejs/plugin-react": "^4.5.1",
+    "concurrently": "^8.2.2",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@types/axios": "^0.9.36",
+    "axios": "^1.9.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.1"
+  }
+}

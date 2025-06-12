@@ -1,0 +1,13 @@
+[
+  {
+    "status": "simulated",
+    "calendar": "cli",
+    "datetime": "2024-07-01T15:00:00+04:00",
+    "agent": "agent@example.com",
+    "client": {
+      "name": "Ali",
+      "email": "ali@example.com",
+      "phone": "+971501234567"
+    }
+  }
+]

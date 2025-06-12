@@ -1,0 +1,43 @@
+{
+  "listings": [
+    {
+      "title": "Luxury Marina View Apartment",
+      "price": 2500000,
+      "location": "Dubai Marina",
+      "type": "apartment",
+      "bedrooms": 2,
+      "image": "/images/properties/marina-view.jpg"
+    },
+    {
+      "title": "Palm Jumeirah Villa",
+      "price": 15000000,
+      "location": "Palm Jumeirah",
+      "type": "villa",
+      "bedrooms": 5,
+      "image": "/images/properties/palm-villa.jpg"
+    },
+    {
+      "title": "Downtown Studio",
+      "price": 950000,
+      "location": "Downtown Dubai",
+      "type": "apartment",
+      "bedrooms": 1,
+      "image": "/images/properties/downtown-studio.jpg"
+    },
+    {
+      "title": "Business Bay Office Space",
+      "price": 3500000,
+      "location": "Business Bay",
+      "type": "commercial",
+      "image": "/images/properties/business-bay-office.jpg"
+    },
+    {
+      "title": "JLT Penthouse",
+      "price": 4200000,
+      "location": "Jumeirah Lake Towers",
+      "type": "penthouse",
+      "bedrooms": 3,
+      "image": "/images/properties/jlt-penthouse.jpg"
+    }
+  ]
+} 

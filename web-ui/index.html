@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-gray-50">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RealEstate Serenity</title>
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Meta tags for SEO and social sharing -->
+    <meta name="description" content="Modern real estate management platform with AI-powered lead scoring and analytics" />
+    <meta name="keywords" content="real estate, property management, lead scoring, analytics" />
+    <meta property="og:title" content="RealEstate Serenity" />
+    <meta property="og:description" content="Modern real estate management platform with AI-powered lead scoring and analytics" />
+    <meta property="og:type" content="website" />
+    <!-- Theme color for mobile browsers -->
+    <meta name="theme-color" content="#2563eb" />
+    <!-- Prevent flash of unstyled content -->
+    <style>
+      .js-focus-visible :focus:not(.focus-visible) {
+        outline: none;
+      }
+      .js-focus-visible .focus-visible {
+        outline: 2px solid #2563eb;
+        outline-offset: 2px;
+      }
+    </style>
+  </head>
+  <body class="h-full antialiased">
+    <div id="root" class="h-full"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- Prevent flash of unstyled content -->
+    <script>
+      document.documentElement.classList.add('js-focus-visible');
+    </script>
+  </body>
+</html> 
